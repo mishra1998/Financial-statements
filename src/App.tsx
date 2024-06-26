@@ -2,7 +2,9 @@ import { Table } from './component/table';
 
 function App() {
   return (
-    <Table/>
+    <div className="App">
+      <Table/>
+    </div>
   );
 }
 

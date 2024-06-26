@@ -1,7 +1,7 @@
 import React from "react";
-import "./table"; 
+import "./table.css"; 
 
-const PlaneTable = () => {
+const PlaneTable: React.FC = () => {
   return (
     <table style={{border:"1px solid black"}}>
       <thead>
